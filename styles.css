@@ -1,9 +1,9 @@
 body, html {
-    height: 100%;
     margin: 0;
     font-family: 'Comic Sans MS', cursive;
     background: url('images/background.jpg') center/cover no-repeat;
     overflow-y: auto;  /* Allows vertical scrolling if needed */
+    min-height: 100vh; /* Ensures body occupies at least full viewport height */
 }
 
 .main-container {
