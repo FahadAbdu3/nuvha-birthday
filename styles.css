@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Comic Sans MS', cursive;
-    background: url('images/background.jpeg') center/cover no-repeat;
+    background: url('images/background.jpg') center/cover no-repeat;
 }
 
 .main-container {
@@ -61,6 +61,8 @@ h1 {
     border: 5px solid #FFB6C1;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
+    overflow-y: auto;  /* Adds vertical scrolling if needed */
+    max-height: 90vh;  /* This limits the modal's height to 90% of the viewport's height */
 }
 
 .close-btn {
