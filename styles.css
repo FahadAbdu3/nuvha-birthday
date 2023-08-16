@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     font-family: 'Comic Sans MS', cursive;
     background: url('images/background.jpg') center/cover no-repeat;
+    overflow-y: auto;  /* Allows vertical scrolling if needed */
 }
 
 .main-container {
